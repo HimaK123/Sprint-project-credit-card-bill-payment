@@ -29,7 +29,7 @@ import io.swagger.annotations.Api;
  *********************************************************************************************************************************/
 
 
-
+@Api(value="CreditCardBillPayment")
 @RestController
 @RequestMapping("/")
 public class StatementController {
